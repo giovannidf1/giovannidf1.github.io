@@ -10,17 +10,17 @@ desktop.ini        # Esclude file di configurazione Windows
 *.log              # File di log
 *.swp              # File temporanei di Vim
 
-# Hosting GitHub Pages (se in futuro aggiungi una build)
+# Node.js (se usi pacchetti o build tools in futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hosting GitHub Pages (se hai file generati dalla build)
 dist/
 build/
 
 # Altri file temporanei o personali
 *.bak              # File di backup
 *.tmp              # File temporanei
-.env               # File di configurazione ambiente (opzionale)
-
-# Node.js (se in futuro aggiungi script o build tools)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.env               # File di configurazione ambiente
