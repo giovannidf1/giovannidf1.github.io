@@ -1,0 +1,33 @@
+# Sistemi operativi
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# Editor e IDE
+.vscode/           # Configurazioni Visual Studio Code
+.idea/             # Configurazioni IntelliJ/PhpStorm
+*.log              # File di log
+*.swp              # File temporanei Vim
+
+# Node.js (se in futuro aggiungi script o build tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Generati dai browser
+*.sass-cache/
+*.map              # Mappe CSS/JS per debugging
+.cache/
+
+# Hosting GitHub Pages (se usi una cartella di build separata)
+dist/
+build/
+
+# Altri file personali o temporanei
+.env               # Variabili di ambiente
+*.bak              # Backup files
+*.tmp              # File temporanei
+
+# Immagini generate
+images/tmp/
