@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +8,7 @@ body {
 }
 
 header {
-    background: #007aff;
+    background: #ff7f50;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -29,7 +30,7 @@ header p {
 
 header .button {
     background: white;
-    color: #007aff;
+    color: #ff7f50;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -48,20 +49,19 @@ main {
     padding: 0 20px;
 }
 
-#features {
-    background: #f4f4f4;
+#features, #gameplay, #support {
     padding: 40px 0;
     text-align: center;
 }
 
-#features .feature {
+#features .feature, #gameplay ul {
     display: inline-block;
     width: 30%;
     margin: 10px;
 }
 
 #features .feature img {
-    width: 100px;
+    width: 100%;
     height: auto;
 }
 
@@ -77,12 +77,6 @@ main {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-}
-
-#support {
-    text-align: center;
-    padding: 40px 0;
-    background: #f4f4f4;
 }
 
 footer {
