@@ -9,12 +9,9 @@
 <body>
     <header>
         <div class="container">
-            <!-- Icona dell'app -->
             <img src="images/icon.png" alt="Game Icon" class="app-icon" />
-            
             <h1>Ball Dash - Deluxe</h1>
             <p>The ultimate bubble shooting game! Match colors, destroy bubbles, and collect stars!</p>
-            <!-- Rimosso il pulsante "Download Now" perché l'app non è ancora disponibile -->
         </div>
     </header>
     
@@ -61,7 +58,6 @@
             <div class="container">
                 <h2>Download the App</h2>
                 <p>The app is not yet available on the store. Stay tuned!</p>
-                <!-- Rimosso il pulsante di download perché l'app non è presente sullo store -->
             </div>
         </section>
 
@@ -72,13 +68,40 @@
                 <p>Need help? Contact us at: <a href="mailto:giovannihelpcenter@gmail.com">giovannihelpcenter@gmail.com</a></p>
             </div>
         </section>
+
+        <!-- Privacy Policy -->
+        <section id="privacy-policy" style="display:none;">
+            <div class="container">
+                <h2>Privacy Policy</h2>
+                <p><strong>Effective Date:</strong> January 1, 2025</p>
+                <p>This privacy policy applies to the application <strong>Ball Dash - Deluxe</strong>. Your privacy is important to us. Our app is designed to ensure that no user data is collected, stored, or shared. We do not request or process any personal information, nor do we track user behavior or usage patterns.</p>
+                <p><strong>Key Points:</strong></p>
+                <ul>
+                    <li>No data is collected through the app.</li>
+                    <li>No personal or sensitive information is stored or shared.</li>
+                    <li>There are no analytics, ads, or tracking mechanisms within the app.</li>
+                </ul>
+                <p>If you have any questions or concerns about our privacy policy, please contact us at: <a href="mailto:giovannihelpcenter@gmail.com">giovannihelpcenter@gmail.com</a>.</p>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2025 Giovanni De Florio. All rights reserved.</p>
+            <p>&copy; 2025 Giovanni De Florio. All rights reserved. <a href="#privacy-policy" onclick="showPrivacyPolicy()">Privacy Policy</a></p>
         </div>
     </footer>
+
+    <script>
+        // Funzione per mostrare la Privacy Policy
+        function showPrivacyPolicy() {
+            document.querySelector("#privacy-policy").style.display = "block";
+            document.querySelector("#features").style.display = "none";
+            document.querySelector("#gameplay").style.display = "none";
+            document.querySelector("#download").style.display = "none";
+            document.querySelector("#support").style.display = "none";
+        }
+    </script>
 </body>
 </html>
