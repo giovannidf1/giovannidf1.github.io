@@ -244,9 +244,9 @@ header p {
 
 .visuals-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 50px;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -269,11 +269,12 @@ header p {
 
 .game-screenshot, .power-ups-image {
     width: 100%;
-    max-width: 350px;
+    max-width: 280px;
     height: auto;
     margin: 0 auto 20px;
     border-radius: 15px;
     transition: transform 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 .visual-item:hover .game-screenshot,
