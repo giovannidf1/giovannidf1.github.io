@@ -1,0 +1,80 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3c72;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a5298;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="diamondGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#4ecdc4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#44a08d;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="turtleGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4757;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="coinGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffa502;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6348;stop-opacity:1" />
+    </radialGradient>
+    <radialGradient id="heartGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff4757;stop-opacity:1" />
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="200" y="40" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">POWER-UPS</text>
+  
+  <!-- Diamond Power-up -->
+  <g transform="translate(80, 80)">
+    <polygon points="0,-20 15,-10 15,10 0,20 -15,10 -15,-10" fill="url(#diamondGradient)" filter="url(#glow)"/>
+    <polygon points="0,-15 10,-5 10,5 0,15 -10,5 -10,-5" fill="#ffffff" opacity="0.3"/>
+    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">DIAMANTE</text>
+    <text x="0" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="10">Invincibilità</text>
+  </g>
+  
+  <!-- Turtle Power-up -->
+  <g transform="translate(200, 80)">
+    <ellipse cx="0" cy="0" rx="20" ry="15" fill="url(#turtleGradient)" filter="url(#glow)"/>
+    <ellipse cx="-8" cy="-5" rx="3" ry="2" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="8" cy="-5" rx="3" ry="2" fill="#ffffff" opacity="0.8"/>
+    <ellipse cx="0" cy="5" rx="4" ry="3" fill="#ffffff" opacity="0.6"/>
+    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">TARTARUGA</text>
+    <text x="0" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="10">Rallenta tempo</text>
+  </g>
+  
+  <!-- Coin Power-up -->
+  <g transform="translate(320, 80)">
+    <circle cx="0" cy="0" r="18" fill="url(#coinGradient)" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="12" fill="#ffffff" opacity="0.3"/>
+    <text x="0" y="5" text-anchor="middle" fill="#ffa502" font-family="Arial" font-size="16" font-weight="bold">$</text>
+    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">MONETA</text>
+    <text x="0" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="10">Sblocca sfere</text>
+  </g>
+  
+  <!-- Heart Power-up -->
+  <g transform="translate(140, 180)">
+    <path d="M0,10 C-10,-5 -20,-5 -20,5 C-20,15 -10,25 0,35 C10,25 20,15 20,5 C20,-5 10,-5 0,10 Z" fill="url(#heartGradient)" filter="url(#glow)"/>
+    <text x="0" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">VITA</text>
+    <text x="0" y="75" text-anchor="middle" fill="white" font-family="Arial" font-size="10">Vita extra</text>
+  </g>
+  
+  <!-- Special Sphere -->
+  <g transform="translate(260, 180)">
+    <circle cx="0" cy="0" r="18" fill="url(#diamondGradient)" filter="url(#glow)"/>
+    <circle cx="0" cy="0" r="12" fill="#ffffff" opacity="0.2"/>
+    <circle cx="-5" cy="-5" r="3" fill="#ffffff" opacity="0.6"/>
+    <text x="0" y="50" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">SFERA SPECIALE</text>
+    <text x="0" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="10">Abilità uniche</text>
+  </g>
+</svg>

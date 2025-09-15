@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ball Dash - Deluxe</title>
+    <title>Rolling Fury - 3D Arcade Game</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="images/icon.png" alt="Game Icon" class="app-icon" />
-            <h1>Ball Dash - Deluxe</h1>
-            <p>The ultimate bubble shooting game! Match colors, destroy bubbles, and collect stars!</p>
+            <img src="images/rolling-fury-icon.svg" alt="Rolling Fury Game Icon" class="app-icon" />
+            <h1>Rolling Fury</h1>
+            <p>Un gioco arcade 3D dove controlli una sfera che rotola lungo un ponte infinito. Evita ostacoli, raccogli power-up e sfida te stesso a ottenere il punteggio più alto!</p>
         </div>
     </header>
     
@@ -19,22 +19,56 @@
         <!-- Features Section -->
         <section id="features">
             <div class="container">
-                <h2>Features</h2>
+                <h2>Caratteristiche Principali</h2>
                 <div class="features-grid">
                     <div class="feature">
-                        <img src="images/tutorial.jpg" alt="Tutorial Image">
-                        <h3>Simple Gameplay</h3>
-                        <p>Shoot colorful balls to make them collide with bubbles of the same color. Break groups of 3 or more!</p>
+                        <div class="feature-icon">🎮</div>
+                        <h3>Controllo Semplice</h3>
+                        <p>Muovi la sfera a sinistra e destra toccando i lati dello schermo. Controlli intuitivi per un gameplay fluido!</p>
                     </div>
                     <div class="feature">
-                        <img src="images/level.jpg" alt="Level Progression">
-                        <h3>Challenging Levels</h3>
-                        <p>Advance through dozens of exciting levels with unique designs and increasing difficulty.</p>
+                        <div class="feature-icon">⚡</div>
+                        <h3>Meccanica di Rischio</h3>
+                        <p>Tocca la sfera per attivare effetti speciali - può diventare GIALLA (indistruttibile) o ROSSA (game over istantaneo)!</p>
                     </div>
                     <div class="feature">
-                        <img src="images/map.jpg" alt="Game Map">
-                        <h3>Interactive Map</h3>
-                        <p>Explore beautifully designed maps as you progress through the adventure.</p>
+                        <div class="feature-icon">💎</div>
+                        <h3>Power-Up Unici</h3>
+                        <p>Diamanti per l'invincibilità, tartarughe per rallentare il tempo, monete per sbloccare nuove sfere!</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🎨</div>
+                        <h3>15+ Sfere Uniche</h3>
+                        <p>Ogni sfera ha abilità speciali diverse: agilità, resistenza, moltiplicatori di monete e vite extra!</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Grafica 3D Stunning</h3>
+                        <p>Utilizza RealityKit per un'esperienza visiva immersiva con fisica realistica e effetti particellari!</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon">📈</div>
+                        <h3>Progressione Infinita</h3>
+                        <p>Il gioco diventa sempre più veloce man mano che avanzi. Sfida te stesso a ottenere il punteggio più alto!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Game Visuals Section -->
+        <section id="game-visuals">
+            <div class="container">
+                <h2>Esperienza di Gioco</h2>
+                <div class="visuals-grid">
+                    <div class="visual-item">
+                        <img src="images/gameplay-screenshot.svg" alt="Rolling Fury Gameplay" class="game-screenshot">
+                        <h3>Gameplay Immersivo</h3>
+                        <p>Controlla la tua sfera lungo il ponte infinito con grafica 3D stunning e fisica realistica.</p>
+                    </div>
+                    <div class="visual-item">
+                        <img src="images/power-ups-showcase.svg" alt="Power-ups Collection" class="power-ups-image">
+                        <h3>Power-Up Unici</h3>
+                        <p>Scopri tutti i power-up disponibili: diamanti, tartarughe, monete e molto altro!</p>
                     </div>
                 </div>
             </div>
@@ -43,21 +77,53 @@
         <!-- Gameplay Section -->
         <section id="gameplay">
             <div class="container">
-                <h2>How to Play</h2>
-                <ul class="centered-text">
-                    <li>Shoot colored balls and match 3 or more to destroy them.</li>
-                    <li>Strategically aim to hit bombs or special items for extra effects.</li>
-                    <li>Complete levels by collecting stars or achieving objectives.</li>
-                </ul>
-                <p>Can you master every level and collect all the stars?</p>
+                <h2>Come Giocare</h2>
+                <div class="gameplay-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Controllo</h3>
+                        <p>Tocca i lati dello schermo per muovere la sfera a sinistra e destra lungo il ponte infinito.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Evita Ostacoli</h3>
+                        <p>Schiva tutti gli ostacoli che incontri lungo il percorso per sopravvivere il più a lungo possibile.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Raccogli Power-Up</h3>
+                        <p>Raccogli diamanti, tartarughe e monete per ottenere vantaggi e sbloccare nuove sfere.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Rischia e Vinci</h3>
+                        <p>Tocca la sfera per attivare effetti speciali - potresti diventare invincibile o perdere tutto!</p>
+                    </div>
+                </div>
+                <p class="challenge-text">Riuscirai a dominare il ponte infinito e ottenere il punteggio più alto?</p>
             </div>
         </section>
         
         <!-- Download Section -->
         <section id="download">
             <div class="container">
-                <h2>Download the App</h2>
-                <p>The app is not yet available on the store. Stay tuned!</p>
+                <h2>Scarica Rolling Fury</h2>
+                <div class="download-info">
+                    <div class="compatibility">
+                        <h3>📱 Compatibilità</h3>
+                        <ul>
+                            <li>iOS 13.0 o successivo</li>
+                            <li>Ottimizzato per iPhone e iPad</li>
+                            <li>Grafica Metal ad alte prestazioni</li>
+                            <li>Modalità Portrait ottimizzata</li>
+                        </ul>
+                    </div>
+                    <div class="availability">
+                        <h3>🚀 Disponibilità</h3>
+                        <p>L'app sarà presto disponibile sull'App Store!</p>
+                        <p>Resta aggiornato per essere tra i primi a giocare a Rolling Fury.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -74,7 +140,7 @@
             <div class="container">
                 <h2>Privacy Policy</h2>
                 <p><strong>Effective Date:</strong> January 1, 2025</p>
-                <p>This privacy policy applies to the application <strong>Ball Dash - Deluxe</strong>. Your privacy is important to us. Our app is designed to ensure that no user data is collected, stored, or shared. We do not request or process any personal information, nor do we track user behavior or usage patterns.</p>
+                <p>This privacy policy applies to the application <strong>Rolling Fury</strong>. Your privacy is important to us. Our app is designed to ensure that no user data is collected, stored, or shared. We do not request or process any personal information, nor do we track user behavior or usage patterns.</p>
                 <p><strong>Key Points:</strong></p>
                 <ul>
                     <li>No data is collected through the app.</li>
@@ -98,10 +164,90 @@
         function showPrivacyPolicy() {
             document.querySelector("#privacy-policy").style.display = "block";
             document.querySelector("#features").style.display = "none";
+            document.querySelector("#game-visuals").style.display = "none";
             document.querySelector("#gameplay").style.display = "none";
             document.querySelector("#download").style.display = "none";
             document.querySelector("#support").style.display = "none";
         }
+        
+        // Funzione per tornare alla home
+        function showHome() {
+            document.querySelector("#privacy-policy").style.display = "none";
+            document.querySelector("#features").style.display = "block";
+            document.querySelector("#game-visuals").style.display = "block";
+            document.querySelector("#gameplay").style.display = "block";
+            document.querySelector("#download").style.display = "block";
+            document.querySelector("#support").style.display = "block";
+        }
+        
+        // Animazioni interattive
+        document.addEventListener('DOMContentLoaded', function() {
+            // Parallax effect per le feature cards
+            const features = document.querySelectorAll('.feature');
+            features.forEach(feature => {
+                feature.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-15px) scale(1.05)';
+                });
+                feature.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+            
+            // Effetto di typing per il titolo
+            const title = document.querySelector('header h1');
+            if (title) {
+                const text = title.textContent;
+                title.textContent = '';
+                let i = 0;
+                const typeWriter = () => {
+                    if (i < text.length) {
+                        title.textContent += text.charAt(i);
+                        i++;
+                        setTimeout(typeWriter, 100);
+                    }
+                };
+                setTimeout(typeWriter, 1000);
+            }
+            
+            // Animazione delle particelle
+            createParticles();
+        });
+        
+        // Funzione per creare particelle animate
+        function createParticles() {
+            const particleContainer = document.createElement('div');
+            particleContainer.style.position = 'fixed';
+            particleContainer.style.top = '0';
+            particleContainer.style.left = '0';
+            particleContainer.style.width = '100%';
+            particleContainer.style.height = '100%';
+            particleContainer.style.pointerEvents = 'none';
+            particleContainer.style.zIndex = '1';
+            document.body.appendChild(particleContainer);
+            
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.style.position = 'absolute';
+                particle.style.width = '2px';
+                particle.style.height = '2px';
+                particle.style.background = 'rgba(255, 255, 255, 0.5)';
+                particle.style.borderRadius = '50%';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animation = `float ${3 + Math.random() * 4}s infinite ease-in-out`;
+                particleContainer.appendChild(particle);
+            }
+        }
+        
+        // CSS per l'animazione delle particelle
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes float {
+                0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.5; }
+                50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+            }
+        `;
+        document.head.appendChild(style);
     </script>
 </body>
 </html>
