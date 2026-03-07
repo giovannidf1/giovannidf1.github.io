@@ -12,6 +12,10 @@ desktop.ini        # Esclude file di configurazione Windows
 
 # Node.js (se usi pacchetti o build tools in futuro)
 node_modules/
+package.json
+package-lock.json
+screenshot.mjs
+screenshot.png
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
