@@ -1,0 +1,276 @@
+/* HabitFlow page overrides */
+
+/* Header */
+.app-header {
+    padding: 80px 24px 64px;
+    text-align: center;
+    background: linear-gradient(135deg, #7c3aed 0%, #a855f7 50%, #c084fc 100%);
+}
+
+.app-header .header-bg {
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.08'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.app-hero {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.app-icon-large {
+    width: 88px;
+    height: 88px;
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #fff;
+    flex-shrink: 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.hero-text {
+    text-align: left;
+}
+
+.app-header h1 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 4px;
+    letter-spacing: -0.3px;
+}
+
+.app-header .tagline {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.hero-desc {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.05rem;
+    max-width: 620px;
+    margin: 0 auto 28px;
+    line-height: 1.7;
+}
+
+.hero-badges {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.82rem;
+    font-weight: 600;
+}
+
+/* Features */
+.features-section {
+    padding: 64px 24px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.feature-card {
+    background: #fff;
+    border: 1px solid #e5e5e7;
+    border-radius: 20px;
+    padding: 32px 24px;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+}
+
+.feature-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #1d1d1f;
+    margin-bottom: 8px;
+}
+
+.feature-card p {
+    font-size: 0.9rem;
+    color: #6e6e73;
+    line-height: 1.5;
+}
+
+/* Support */
+.support-section {
+    padding: 64px 24px;
+    background: #fff;
+}
+
+.support-box {
+    background: linear-gradient(135deg, #f8f9fa, #eef1f5);
+    border: 1px solid #e5e5e7;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.support-box p {
+    color: #6e6e73;
+    font-size: 1.05rem;
+    margin-bottom: 20px;
+}
+
+.support-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #7c3aed, #a855f7);
+    color: #fff !important;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.35);
+}
+
+.support-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.45);
+    color: #fff !important;
+}
+
+/* Privacy */
+.privacy-section {
+    padding: 64px 24px;
+}
+
+.privacy-content {
+    background: #fff;
+    border: 1px solid #e5e5e7;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.privacy-date {
+    color: #86868b;
+    font-size: 0.85rem;
+    margin-bottom: 16px !important;
+}
+
+.privacy-content h3 {
+    color: #1d1d1f;
+    font-size: 1.05rem;
+    margin: 28px 0 12px;
+    font-weight: 700;
+}
+
+.privacy-content p {
+    color: #6e6e73;
+    font-size: 0.93rem;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.privacy-content ul {
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.privacy-content li {
+    color: #6e6e73;
+    font-size: 0.9rem;
+    margin-bottom: 6px;
+    line-height: 1.6;
+}
+
+.privacy-content a {
+    color: #7c3aed;
+}
+
+/* Footer */
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #86868b !important;
+    font-size: 0.85rem;
+    transition: color 0.2s;
+}
+
+.back-link:hover {
+    color: #1d1d1f !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .app-header {
+        padding: 64px 16px 48px;
+    }
+    .app-hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .app-header h1 {
+        font-size: 1.8rem;
+    }
+    .app-icon-large {
+        width: 72px;
+        height: 72px;
+        font-size: 2rem;
+    }
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    .support-box {
+        padding: 28px 20px;
+    }
+    .privacy-content {
+        padding: 28px 20px;
+    }
+}
